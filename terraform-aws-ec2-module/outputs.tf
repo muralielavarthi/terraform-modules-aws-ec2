@@ -7,3 +7,4 @@ output "private_ip" {
 }
 
 # if we don't write output's in module, we can't fetch these values from project
+# it is important to write outputs
