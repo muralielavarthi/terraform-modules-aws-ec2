@@ -8,6 +8,8 @@ variable "sg_id" {
 
 }
 
+# In project, we might use t3.micro or t3.small or t3.medium, we can restict from using other things than these values
+# if some provides other instance_type it will throw an error.
 variable "instance_type" {
     default = "t3.micro"
     validation {

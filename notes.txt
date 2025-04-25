@@ -2,13 +2,14 @@ terraform modules
 =================
 it is like a function, we pass inputs and will get the infra
 Example: we pass required inputs to ec2-module and it will created ec2 infra
-advantage is code reuse, we can reuse the module in different projects.
-
 module "module-name" {
     # passing inputs to the module
 }
 
-# In few terraform projects, there be separate team for module development.
-# In some projects, devops engineer will develop modules and use them.
+1. In few terraform projects, there be separate team for module development.
+2. In some projects, devops engineer will develop modules and use them.
+3. provider file will present in expense project but not in module code.
 
-# provider file will present in expense project but not in module code.
+Advantages:
+1. Code reuse
+2. 
