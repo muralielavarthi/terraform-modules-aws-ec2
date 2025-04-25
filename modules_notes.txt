@@ -14,7 +14,7 @@ Advantages of modules:
 =======================
 1. Code reuse
 2. Enforce standards and best practices
-3. centralised place to updates (any changes we do in the module, will refelect across all projects using it)
+3. maintainability - centralised place to updates (any changes we do in the module, will refelect across all projects using it)
 
 - module developers, will create documentation on module and will share with team
 - It is important to understand how execution happens in terraform files.
