@@ -16,4 +16,4 @@ Advantages of modules:
 2. Enforce standards and best practices
 3. centralised place to updates (any changes we do in the module, will refelect across all projects using it)
 
-we have to create documentation for module
+module developers, will create documentation on module and will share with team
