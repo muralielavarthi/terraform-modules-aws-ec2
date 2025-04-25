@@ -3,7 +3,7 @@ variable "ami_id" {
     default = "ami-09c813fb71547fc4f"
 }
 
-# mandatory
+# mandatory - leaving blank means, value is mandatory for this variable
 variable "sg_id" {
 
 }
@@ -20,3 +20,5 @@ variable "instance_type" {
 variable "tags" {
     default = {}
 }
+
+# default = {}, means value is optional for this variable
