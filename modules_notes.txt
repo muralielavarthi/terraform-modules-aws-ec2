@@ -16,4 +16,8 @@ Advantages of modules:
 2. Enforce standards and best practices
 3. centralised place to updates (any changes we do in the module, will refelect across all projects using it)
 
-module developers, will create documentation on module and will share with team
+- module developers, will create documentation on module and will share with team
+- It is important to understand how execution happens in terraform files.
+
+- .tfvars files, usally we will not push to github because it might contains senstive information and values will be 
+   related to creator details, person cloning repo they should update their variables values in .tfvars files.

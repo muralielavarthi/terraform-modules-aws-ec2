@@ -1,6 +1,7 @@
 # default
 variable "ami_id" {
     default = "ami-09c813fb71547fc4f"
+    # instead of hard coding ami id, we can fetch it using data source
 }
 
 # mandatory - leaving blank means, value is mandatory for this variable
