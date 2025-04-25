@@ -21,3 +21,5 @@ Advantages of modules:
 
 - .tfvars files, usally we will not push to github because it might contains senstive information and values will be 
    related to creator details, person cloning repo they should update their variables values in .tfvars files.
+
+- we can keep modules in github and use it in expense project, will see this further.
